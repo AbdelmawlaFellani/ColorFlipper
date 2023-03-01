@@ -1,0 +1,85 @@
+/* Define the main Navigation block */
+*{
+    font-family: manrope;
+}
+.myNav {
+    display: block;
+    height: 8vh;
+    line-height: 50px;
+    background-color: #EFFEFE;
+}
+/* Remove bullets, margin and padding */
+.myNav ul {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    gap: 15em;
+    padding: 0;
+    margin: 0;  
+}
+.myNav li {
+    color: #0F0F0F;
+    /* Or you can use display: inline; */
+}
+
+/* Define the block styling for the links */
+.myNav li a {
+    color: white;
+    display: block;
+    text-align: center;
+}
+/* This is optional, however if you want to display the active link differently apply a background to it */
+.myNav ul > ul > li.active {
+    color: yellow;
+}
+.logo {
+    color: #6c71d1 !important;
+    font-weight: 700;
+    font-size: large;
+    color:#ff0000
+}
+.nav-btns{
+    display: flex;
+    gap:2em;
+    cursor: pointer;
+}
+main{
+    background-color: red;
+    color: white;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:5vh
+}
+.bg-text{
+    background-color: #2f2f2f;
+    padding: 0.5rem ;
+    font-weight: 700;
+    
+    font-size: 46px;
+    border-radius: 6px;
+}
+.btn{
+    display: block;
+    
+    cursor: pointer;
+    color: #2F2F2F;
+    border: solid 3px #6c71d1;
+    border-radius: 6px;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+}
+.btn:hover{
+    opacity: 0.8;
+    background-color: white;
+    padding: 0.6rem 1.1rem;
+    font-size: 800;
+    transition:1.2s ease;
+}
+.color-val,div > li.active {
+    color:#6c71d1;
+}
