@@ -36,16 +36,16 @@ function toggle(b){
      hexMode=b;
      
   
-    if(!hexMode){
-        hexBtn.classList.remove('active');
-        simpleBtn.classList.add('active'); 
-    }else 
-        simpleBtn.classList.remove('active')
-        hexBtn.classList.add('active');
+    // if(!hexMode){
+    //     hexBtn.classList.remove('active');
+    //     simpleBtn.classList.add('active'); 
+    // }else 
+    //     simpleBtn.classList.remove('active')
+    //     hexBtn.classList.add('active');
 
 }
 function onClick() {
-  let randomIndex = Math.floor(Math.random() * 10);
+  let randomIndex = Math.floor(Math.random() * simpleArr.length);
   (
     !hexMode
       ? (color.innerHTML = simpleArr[randomIndex])

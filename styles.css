@@ -80,6 +80,9 @@ main{
     font-size: 800;
     transition:1.2s ease;
 }
-.color-val,div > li.active {
+.color-val {
+    color:#6c71d1;
+}
+div>li:hover{
     color:#6c71d1;
 }
